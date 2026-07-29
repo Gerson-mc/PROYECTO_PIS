@@ -1,8 +1,8 @@
 <?php
-$servername = "sql202.infinityfree.com";
-$username   = "if0_42530801";
-$password   = "ghh0aXqiyUIIay"; // La clave que copias al hacer clic en el ojito de MYSQL PASSWORD
-$dbname     = "if0_42530801_db_ayudaya"; // <--- ESTE ES EL NOMBRE EXACTO DE TU CAPTURA
+$servername = "sql311.infinityfree.com";
+$username   = "if0_42532803";
+$password   = "XXswTTH0GkgL"; // La clave que copias al hacer clic en el ojito de MYSQL PASSWORD
+$dbname     = "if0_42532803_db_proyecto"; // <--- ESTE ES EL NOMBRE EXACTO DE TU CAPTURA
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", $username, $password);

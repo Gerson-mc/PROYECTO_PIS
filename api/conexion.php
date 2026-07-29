@@ -5,7 +5,7 @@ $password   = "ghh0aXqiyUIIay"; // La clave que copias al hacer clic en el ojito
 $dbname     = "if0_42530801_db_ayudaya"; // <--- ESTE ES EL NOMBRE EXACTO DE TU CAPTURA
 
 try {
-  $conn = new PDO;("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", $username, $password);
+  $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", $username, $password);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
   header('Content-Type: application/json');

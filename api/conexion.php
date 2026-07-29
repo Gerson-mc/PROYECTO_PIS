@@ -2,7 +2,7 @@
 $servername = "sql202.infinityfree.com";
 $username = "if0_42530801";
 $password = "ghh0aXqiyUIIay"; // Contraseña vacía por defecto en XAMPP
-$dbname = "if0_42530801_bd_ayudaya"; // Nombre de tu base de datos
+$dbname = "if0_42530801_db_ayudaya"; // Nombre de tu base de datos
 
 try {
     // Intentamos crear la conexión usando PDO

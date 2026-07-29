@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = ""; // Contraseña vacía por defecto en XAMPP
-$dbname = "pweb_3c"; // Nombre de tu base de datos
+$servername = "sql202.infinityfree.com";
+$username = "if0_42530801";
+$password = "ghh0aXqiyUIIay"; // Contraseña vacía por defecto en XAMPP
+$dbname = "if0_42530801_XXX"; // Nombre de tu base de datos
 
 try {
     // Intentamos crear la conexión usando PDO
